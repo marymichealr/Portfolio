@@ -1,24 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>My Personal Website</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-    h1 { color: #333; }
-    p { color: #555; }
-  </style>
-</head>
-<body>
+  <head>
+    <title>Marym's Portfolio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: #e0f7ff;
+      }
+      header {
+        background-color: #2196F3;
+        color: white;
+        padding: 20px;
+        font-size: 24px;
+      }
+      section {
+        margin: 40px auto;
+        max-width: 800px;
+        padding: 20px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        color: #333;
+      }
+      p {
+        color: #666;
+      }
+      img.profile {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        border: 3px solid #2196F3;
+      }
+      a.button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 20px 0;
+        font-size: 16px;
+        color: white;
+        background-color: #2196F3;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+      a.button:hover {
+        background-color: #1976D2;
+      }
+      footer {
+        margin-top: 40px;
+        padding: 10px;
+        font-size: 14px;
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      Welcome to Marym's Portfolio
+    </header>
 
-  <h1>Hello, I'm [Your Name]</h1>
-  <p>Welcome to my personal website!</p>
-  <h2>About Me</h2>
-  <p>I am a DevOps Consultant passionate about cloud solutions, automation, and solving complex infrastructure problems.</p>
-  
-  <h2>Contact Me</h2>
-  <p>Email: your.email@example.com</p>
-  <p>GitHub: <a href="https://github.com/your-username" target="_blank">your-username</a></p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">your-profile</a></p>
+    <section>
+      <img src="profile.jpg" alt="Marym's Profile Picture" class="profile">
+      <h2>About Me</h2>
+      <p>Hello! I'm Mary Michael, an Interior Designer passionate about Art and desing.</p>
+    </section>
 
-</body>
+    <section>
+      <h2>My Projects</h2>
+      <p>Check out my projects on GitHub.</p>
+      <a href="https://github.com/marym" class="button" target="_blank">View My GitHub</a>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out via email: marym@example.com</p>
+    </section>
+
+    <footer>
+      &copy; 2025 Marym. All Rights Reserved.
+    </footer>
+  </body>
 </html>
